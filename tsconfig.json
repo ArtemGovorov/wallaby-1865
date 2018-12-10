@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "declaration": true,
+    "target": "es5",
+    "lib": [
+      "es7",
+      "dom"
+    ],
+    "types": [
+      "jest"
+    ],
+    "module": "commonjs",
+    "sourceMap": true,
+    "experimentalDecorators": true
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "jest": {
+    "globals": {
+      "__TS_CONFIG__": {
+        "module": "commonjs"
+      }
+    }
+  }
+}
